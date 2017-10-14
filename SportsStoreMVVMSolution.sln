@@ -3,7 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStoreMVVMSolution", "SportsStoreMVVMSolution\SportsStoreMVVMSolution.csproj", "{747BB19E-9400-4F43-9A7C-6DCDF0D41398}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{8758E9F1-5854-4ABE-AADF-3FB05AFF54E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItem", "SolutionItem", "{CC00B5EB-30C0-4D6E-A125-3E1D9376AF51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DA8677C5-2968-4886-9E63-FE6A8A96C80F}"
+	ProjectSection(SolutionItems) = preProject
+		Instruction.txt = Instruction.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStoreDomailLibrary", "SportsStoreDomailLibrary\SportsStoreDomailLibrary.csproj", "{40E0CECC-7C58-44E0-BF4E-748CA4F45B2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +20,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{747BB19E-9400-4F43-9A7C-6DCDF0D41398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{747BB19E-9400-4F43-9A7C-6DCDF0D41398}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{747BB19E-9400-4F43-9A7C-6DCDF0D41398}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{747BB19E-9400-4F43-9A7C-6DCDF0D41398}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40E0CECC-7C58-44E0-BF4E-748CA4F45B2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40E0CECC-7C58-44E0-BF4E-748CA4F45B2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40E0CECC-7C58-44E0-BF4E-748CA4F45B2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40E0CECC-7C58-44E0-BF4E-748CA4F45B2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{40E0CECC-7C58-44E0-BF4E-748CA4F45B2B} = {8758E9F1-5854-4ABE-AADF-3FB05AFF54E3}
 	EndGlobalSection
 EndGlobal

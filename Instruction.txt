@@ -1,0 +1,9 @@
+project DAL/SportsStoreDomailLibrary
+Nuget Packkage
+1. Install-Package EntityFramework
+EntityFramework
+1.	Enable-Migrations -ContextTypeName SportsStoreDomainLibrary2.Concrete.SportsStoreDBcontext -MigrationsDirectory DataContexts\SportsStoreMigrations
+
+2. This will Create a class with the name InitialCraete which will have the database and table Structure 
+
+PM> Add-Migration -ConfigurationTypeName SportsStoreDomailLibrary.DataContexts.SportsStoreMigrations.Configuration "InitialCreate" 
